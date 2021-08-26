@@ -2823,7 +2823,6 @@ footer .footer_company-name {
       display: none;
     }
     }
-
 @media screen and (max-width: 1070px) {
   header .wrapper {
     padding: 13rem; }
@@ -4417,13 +4416,10 @@ footer .footer_company-name {
      max-width: 800px;
     padding: 15rem 40rem 20rem 40rem ;
    }
-  
- 
   .container .right {
    padding-left: 100px;
    padding-right: 100px;
   }
-  
   .container main .left .write-a-message{
     width:250px;
    
@@ -4498,40 +4494,88 @@ footer .footer_company-name {
   .post-popup-mobile .popup-wrapper .main .post_content {
     height: 380rem; }
     .container main .left .subscribe-blk{
-      width: 250px;
+      max-width:200px;
     }
     .container .left{
       padding-left: 50px;
       padding-right: 50px;
      }
-    .container .right {
-     padding-left: 50px;
-     padding-right: 50px;
+   
+    .container main .right .stories .swiper-container {
+     max-width: 600px;
     }
+     
+    .container main .right .stories .swiper-slide {
+      height: 100rem;
+      max-width: 60rem;
+      right: 1rem;
+    }
+    .container main .right .photo .swiper-container {
+      max-width: 600px;
+     }
+      
+     .container main .right .photo .swiper-slide {
+       height: 100rem;
+       max-width: 60rem;
+       right: 1rem;
+     }
+     .container main .right .white-block{
+     padding: 0 0 45rem;
+    }
+  
+     
+     
     
     .container main .left .write-a-message{
-      width:250px;
+      max-width:200px;
      
-    } }
-    @media screen and(max-width: 610px){
-      .container main .left .subscribe-blk{
-       max-width:180px;
-      }
-      .container .left{
-        padding-left: 30px;
-        padding-right: 30px;
-       }
-      .container .right {
-       padding-left: 30px;
-       padding-right: 30px;
-      }
-      
-      .container main .left .write-a-message{
-        max-width:180px;
-       
-      } 
-
+    } 
+  }
+  @media screen and (max-width: 610px) {
+   
+    .container main .right .stories .swiper-slide {
+      height: 90rem;
+      max-width: 55rem;
+      right: 1rem;
     }
+    .container main .right .photo .swiper-slide {
+      height: 90rem;
+      max-width: 55rem;
+      right: 1rem;
+    }
+   
+    .container main .left .subscribe-blk{
+      width:150px;
+     }
+     .container main .left .subscribe-blk .subscribe{
+     font-size: 16rem;
+     padding: 24rem 0;
+     }
+     .container .left{
+       
+       padding-left: 10px;
+       padding-right: 10px;
+      }
+    
+     .container .right {
+      padding-left: 50px;
+      padding-right: 50px;
+     }
+     
+     .container main .left .write-a-message{
+       width:150px;
+       
+      
+     } 
+     .container main .left .write-a-message .write{
+     font-size: 16rem;
+      
+     
+    } 
+     
+     
+      }
+ 
 
 @media screen and (max-width: 530px) {
   header .wrapper {
@@ -4816,11 +4860,57 @@ footer .footer_company-name {
     padding-top: 64rem;
     padding-bottom: 45rem; }
   .login-sign-up-pass-rec .wrapper .left .alert {
-    padding-top: 20rem; } }
+    padding-top: 20rem; } 
+    
+  }
 
 @media screen and (max-width: 430px) {
+
   .post-popup-mobile .popup-wrapper .main .post_content {
     height: 180rem;
-    grid-template-columns: 1fr 108rem; } }
+    grid-template-columns: 1fr 108rem; }
+   }
+   @media screen and (max-width: 360px) {
+    .container main .right .stories .swiper-slide {
+      height: 70rem;
+      max-width: 40rem;
+      right: 1rem;
+    }
+    .container main .right .photo .swiper-slide {
+      height: 70rem;
+      max-width: 40rem;
+      right: 1rem;
+    }
+   
+    .container main .right .stories .swiper-container {
+      max-width:250px;
+     }
+     .container main .right .photo .swiper-container {
+      max-width:250px;
+     }
+   
+    .container main .left .subscribe-blk{
+      width:120px;
+     }
+     .container main .left .subscribe-blk .subscribe{
+     font-size: 15rem;
+    
+     }
+     .container main .left .write-a-message{
+       width:120px;
+     } 
+     .container main .left .write-a-message .write{
+     font-size: 15rem;
+    } 
+    .container main .left .general{
+      padding: 15rem 10rem 15rem 10rem;
+      max-width:360px;
+     } 
+     .container main .left .general .small .info-blk{
+       column-gap: unset;
+      
+     } 
+     
+      }
 
 /*# sourceMappingURL=style.css.map */
